@@ -1,0 +1,66 @@
+{
+    "activities": [
+        {
+            "valueType": "ConversationInfo",
+            "type": "trace",
+            "timestamp": 1777139314,
+            "timestampMs": 1777139314376,
+            "from": {
+                "id": "",
+                "role": 0
+            },
+            "value": {
+                "lastSessionOutcome": "Resolved",
+                "lastSessionOutcomeReason": "Resolved",
+                "isDesignMode": true,
+                "locale": "en-US"
+            }
+        },
+        {
+            "id": "zzzb452-1348-44a1-8768-de8413ae2eb6",
+            "type": "invokeResponse",
+            "timestamp": 1777139835,
+            "timestampMs": 1777139835104,
+            "from": {
+                "id": "zzqq4a3e-9222-a36a-08a8-829f6fa44a76",
+                "role": 0
+            },
+            "channelId": "pva-studio",
+            "attachments": [],
+            "replyToId": "zztt5afe8665-9616-45b0-be27-57f9437240bd",
+            "value": {
+                "status": 200,
+                "body": {}
+            }
+        },
+        {
+            "id": "zzd78ca0-1492-40e1-9d2b-42f63c8305f7",
+            "type": "invoke",
+            "timestamp": 1777139864,
+            "timestampMs": 1777139864690,
+            "from": {
+                "id": "best-6f14-afe5-e7fc-47d986d2be41",
+                "aadObjectId": "zzee9c15-2eec-487a-876d-b39077c4556d",
+                "role": 1
+            },
+            "name": "message/submitAction",
+            "channelId": "pva-studio",
+            "attachments": [],
+            "replyToId": "okaysir-88bc-407c-86f3-f6622047b40a",
+            "value": {
+                "actionName": "feedback",
+                "actionValue": {
+                    "feedback": {
+                        "feedbackText": "label of the values on the cart is missing"
+                    },
+                    "reaction": "dislike"
+                }
+            },
+            "channelData": {
+                "enableDiagnostics": true,
+                "testMode": "Text",
+                "clientActivityID": "zzzgaekbzj5z"
+            }
+        }
+    ]
+}
