@@ -38,6 +38,8 @@ This project connects to Microsoft Dataverse, retrieves conversation transcripts
 - Service principal credentials (Client ID and Client Secret)
 - Tenant ID
 
+**Important:** Before proceeding with the setup, please refer to the [Power Platform - Dataverse Tables Reading Steps](https://github.com/anishkutti/dataversereader/blob/main/Power%20Platform%20-%20Dataverse%20Tables%20Reading%20Steps.docx) document and perform the necessary configuration as recommended. This document provides detailed steps for properly configuring your Dataverse environment.
+
 ## Setup
 
 1. **Clone the repository**
