@@ -1,5 +1,22 @@
 # Dataverse Conversation Reader
 
+## ⚠️ DISCLAIMER
+
+**This is sample code provided for reference purposes only.**
+
+Before using this code in any environment, you MUST:
+
+1. **Review the code thoroughly** - Understand what it does and how it interacts with your Dataverse instance
+2. **Perform security assessments** - Ensure credentials management and data handling meet your organization's security standards
+3. **Test in non-production environments first** - Validate functionality against your specific Dataverse setup
+4. **Never run in customer-impacting environments without approval** - This code is not production-ready as-is and requires customization and validation for your use case
+5. **Implement proper error handling and logging** - Add monitoring and alerting appropriate for your environment
+6. **Conduct due diligence** - Verify compliance with data protection regulations (GDPR, CCPA, etc.) relevant to your organization
+
+**Use at your own risk.** The authors assume no responsibility for any damages or data loss resulting from the use of this code.
+
+---
+
 A Python script to extract conversation transcripts and user reactions from Microsoft Dataverse.
 
 ## Overview
