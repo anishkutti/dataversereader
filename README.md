@@ -61,7 +61,7 @@ This project connects to Microsoft Dataverse, retrieves conversation transcripts
    Create a `.env` file in the project root with the following variables:
    ```
    CLIENT_CARD=<your-client-id>
-   CLIENT_SAMPLE=<your-client-secret>
+   CLIENT_SEC=<your-client-secret>
    TENANT_ID=<your-tenant-id>
    DATAVERSE_URL=https://<org>.crm.dynamics.com
    TABLE_NAME=conversationtranscripts

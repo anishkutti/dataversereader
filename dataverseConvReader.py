@@ -21,15 +21,15 @@ load_dotenv()
 
 # -------- CONFIGURATION ----------
 # Load required configuration from environment variables
-CLIENT_CARD = os.environ.get("CLIENT_CARD")
-CLIENT_SAMPLE = os.environ.get("CLIENT_SAMPLE")
+CLIENT_CARD = os.environ.get("CLIENT_CARD") # Client ID of the Azure AD app
+CLIENT_SEC = os.environ.get("CLIENT_SEC") # Client secret of the Azure AD app
 TENANT_ID = os.environ.get("TENANT_ID")
 DATAVERSE_URL = os.environ.get("DATAVERSE_URL")
 TABLE_NAME = os.environ.get("TABLE_NAME")
 DAYS_BACK = int(os.environ.get("DAYS_BACK", 15))  # Default to 15 days if not set
 
 # Validate required environment variables
-required_vars = ["CLIENT_CARD", "CLIENT_SAMPLE", "TENANT_ID", "DATAVERSE_URL", "TABLE_NAME"]
+required_vars = ["CLIENT_CARD", "CLIENT_SEC", "TENANT_ID", "DATAVERSE_URL", "TABLE_NAME"]
 missing_vars = [var for var in required_vars if not os.environ.get(var)]
 if missing_vars:
     print(f"Error: Missing required environment variables: {', '.join(missing_vars)}")
@@ -54,7 +54,7 @@ authority = f"https://login.microsoftonline.com/{TENANT_ID}"
 app = ConfidentialClientApplication(
     CLIENT_CARD,
     authority=authority,
-    client_credential=CLIENT_SAMPLE,
+    client_credential=CLIENT_SEC,
 )
 
 # Acquire access token
