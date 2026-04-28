@@ -89,9 +89,7 @@ The script will:
 ```
 dataversereader/
 ├── dataverseConvReader.py      # Main script
-├── dataversesample1.py          # Sample implementation
 ├── reactionreader.py            # Reaction extraction module
-├── dvreaderv1.cs               # C# reference implementation
 ├── requirements.txt             # Python dependencies
 ├── .env                         # Environment configuration (not in git)
 └── .gitignore                   # Git ignore rules
