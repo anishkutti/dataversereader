@@ -13,6 +13,7 @@ Before using this code in any environment, you MUST:
 5. **Implement proper error handling and logging** - Add monitoring and alerting appropriate for your environment
 6. **Conduct due diligence** - Verify compliance with data protection regulations (GDPR, CCPA, etc.) relevant to your organization
 
+Each org may have different polcies. please review for patterns you org needs to implement
 **Use at your own risk.** The authors assume no responsibility for any damages or data loss resulting from the use of this code.
 
 ---
